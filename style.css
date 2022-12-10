@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+/*nav section start*/
+.cc{
+    height: 80px;  
+    background-color: rgb(209, 61, 61);
+    border-radius: 04px;
+    position: sticky;
+    top: 0;
+ }
+ .ss{
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ .menu > ul >ul> li {
+    float:left;
+    list-style: none;
+ }
+ .menu > ul >ul> li > a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    color: rgb(233, 222, 222);
+    line-height: 50px;
+    padding: 0px 20px;
+    display: inline-block;
+    transition:0.9s;
+    
+ }
+ .menu > ul > li {
+    float:right;
+    list-style: none;
+ }
+ .menu > ul > li > a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(254, 249, 249);
+    line-height: 50px;
+    padding: 0px 20px;
+    display: inline-block;
+    transition:0.9s;
+    margin-top: 10px;
+ }
+ 
+ .menu > ul > li > a:hover,
+ .menu > ul > li > a.active{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 245, 245);
+    color: rgb(18, 1, 1);
+    border-radius: 10px;
+ }
+ /*nav section end*/
+ /*cover section start*/
+ .cover{
+    width: 100%;
+ }
+ /*cover section end*/
+ /*service section start*/
+.service{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .course-col{
+    flex-basis: 31%;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+ }
+ /*service section end*/
+  /*register button start*/
+ .bt{
+    margin-left: 40%;
+    margin-top: -5%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .tt{
+    flex-basis: 31%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+ }
+/*register button end*/
+ /*about start*/
+ .about{
+    color: rgb(209, 61, 61);
+    text-align: center;
+    font-family: Roboto Slab bold;
+    font-size: 120px;
+ }
+ .aboutp{
+    text-align: center;
+ }
+ .nn{
+    color: rgb(209, 61, 61);
+    text-align: center;
+    font-size: 60px;
+ }
+ .mm{
+    color: rgb(209, 61, 61);
+    text-align: center;
+    font-size: 50px;
+ }
+ .admins{
+    width: 95%;
+    padding-left: 20px;
+ }
+ /*about end*/
+ /*contact start*/
+ .logo4{
+    margin-left: 40%;
+ }
+ .bb{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+ }
+ .tb{
+   flex-basis: 31%;
+   background-color: rgb(209, 61, 61);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+ }
+ .search{
+   height: 30px;
+ }
+ /*contact end*/
+ h3{
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   font-family: Roboto Slab;
+   margin-top: -55px;
+ }
